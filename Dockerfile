@@ -1,4 +1,4 @@
-FROM postgres:10.1
+FROM postgres:10.3
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
